@@ -5,7 +5,7 @@
     export let isLoading = false
     export let loadStore: Writable<boolean> | null = null
     export let handler: Function
-    export let additionClass = ''
+    export let additionalClass = ''
     export let color = 'btn-primary'
     
     switch (color) {
@@ -35,7 +35,7 @@
 
 </script>
 <button
-    class="btn {color} {additionClass}"
+    class="btn {color} {additionalClass}"
     on:click={isLoading ? () => {} : handle}
     >{#if isLoading}
         <span class="loading loading-spinner"></span>

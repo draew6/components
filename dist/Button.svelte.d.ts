@@ -6,7 +6,7 @@ declare const __propDef: {
         isLoading?: boolean | undefined;
         loadStore?: Writable<boolean> | null | undefined;
         handler: Function;
-        additionClass?: string | undefined;
+        additionalClass?: string | undefined;
         color?: string | undefined;
     };
     events: {
