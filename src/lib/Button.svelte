@@ -38,13 +38,8 @@
     class="btn {color} {additionClass}"
     on:click={isLoading ? () => {} : handle}
     >{#if isLoading}
-        <span class:spin={isLoading}></span>
+        <span class="loading loading-spinner"></span>
     {:else}
         {text}
     {/if}
 </button>
-<style>
-    .spin {
-        @apply loading loading-spinner;
-    }
-</style>
