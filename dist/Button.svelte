@@ -4,7 +4,6 @@ export let loadStore = null;
 export let handler;
 export let additionClass = "";
 export let color = "btn-primary";
-export let width = null;
 switch (color) {
   case "green":
     color = "btn-success";
@@ -24,20 +23,20 @@ const handle = async () => {
   if (loadStore)
     loadStore.set(true);
   await handler();
-  isLoading = false;
   if (loadStore)
     loadStore.set(false);
+  isLoading = false;
 };
 </script>
-
 <button
-    class="btn {color} {additionClass} {width === null ? '' : 'w-' + width}"
-    on:click={handle}
-    >
+    class="btn {color} {additionClass}"
+    on:click={isLoading ? () => {} : handle}
+    >{#if isLoading}
         <span class:spin={isLoading}></span>
+    {:else}
         {text}
+    {/if}
 </button>
-
 <style>
     .spin {
         @apply loading loading-spinner;
