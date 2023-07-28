@@ -16,9 +16,9 @@
 			"types": "./dist/Input.svelte.d.ts",
 			"svelte": "./dist/Input.svelte"
 		},
-		"./LoadinBar.svelte": {
-			"types": "./dist/LoadinBar.svelte.d.ts",
-			"svelte": "./dist/LoadinBar.svelte"
+		"./LoadingBar.svelte": {
+			"types": "./dist/LoadingBar.svelte.d.ts",
+			"svelte": "./dist/LoadingBar.svelte"
 		},
 		"./Login.svelte": {
 			"types": "./dist/Login.svelte.d.ts",
