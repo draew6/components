@@ -7,6 +7,26 @@
 		"./Button.svelte": {
 			"types": "./dist/Button.svelte.d.ts",
 			"svelte": "./dist/Button.svelte"
+		},
+		"./Alert.svelte": {
+			"types": "./dist/Alert.svelte.d.ts",
+			"svelte": "./dist/Alert.svelte"
+		},
+		"./Input.svelte": {
+			"types": "./dist/Input.svelte.d.ts",
+			"svelte": "./dist/Input.svelte"
+		},
+		"./LoadinBar.svelte": {
+			"types": "./dist/LoadinBar.svelte.d.ts",
+			"svelte": "./dist/LoadinBar.svelte"
+		},
+		"./Login.svelte": {
+			"types": "./dist/Login.svelte.d.ts",
+			"svelte": "./dist/Login.svelte"
+		},
+		"./Toast": {
+			"types": "./dist/toast.svelte.d.ts",
+			"svelte": "./dist/toast.js"
 		}
 	},
 	"version": "0.0.1",
