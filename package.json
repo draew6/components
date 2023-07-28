@@ -21,7 +21,7 @@
 			"svelte": "./dist/Login.svelte"
 		},
 		"./Toast": {
-			"types": "./dist/Toast.js.d.ts",
+			"types": "./dist/Toast.d.ts",
 			"svelte": "./dist/Toast.js"
 		}
 	},
