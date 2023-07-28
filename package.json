@@ -20,7 +20,7 @@
 			"types": "./dist/Login.svelte.d.ts",
 			"svelte": "./dist/Login.svelte"
 		},
-		"./Toast": {
+		"./Toast.js": {
 			"types": "./dist/toast.svelte.d.ts",
 			"svelte": "./dist/toast.js"
 		}
