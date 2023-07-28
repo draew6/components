@@ -4,7 +4,7 @@ declare const __propDef: {
     props: {
         loadStore: Writable<boolean>;
         autologin: Function;
-        login: () => Promise<boolean>;
+        login: (username: string, password: string) => Promise<boolean>;
     };
     events: {
         loggedIn: CustomEvent<any>;

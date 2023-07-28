@@ -23,7 +23,7 @@ $: {
   }
 }
 const handleLogin = async () => {
-  const isLoginSuccesful = await login();
+  const isLoginSuccesful = await login(username, password);
   if (isLoginSuccesful) {
     await autologin();
     isLogedIn = true;
