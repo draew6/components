@@ -8,10 +8,6 @@
 			"types": "./dist/Button.svelte.d.ts",
 			"svelte": "./dist/Button.svelte"
 		},
-		"./Alert.svelte": {
-			"types": "./dist/Alert.svelte.d.ts",
-			"svelte": "./dist/Alert.svelte"
-		},
 		"./Input.svelte": {
 			"types": "./dist/Input.svelte.d.ts",
 			"svelte": "./dist/Input.svelte"
