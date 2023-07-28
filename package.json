@@ -20,9 +20,9 @@
 			"types": "./dist/Login.svelte.d.ts",
 			"svelte": "./dist/Login.svelte"
 		},
-		"./Toast.js": {
-			"types": "./dist/toast.svelte.d.ts",
-			"svelte": "./dist/toast.js"
+		"./Toast": {
+			"types": "./dist/Toast.js.d.ts",
+			"svelte": "./dist/Toast.js"
 		}
 	},
 	"version": "0.0.1",
