@@ -1,6 +1,6 @@
 <script lang="ts">
   import Button from '$lib/Button.svelte'
-  import toast from '$lib/toast'
+  import toast from '$lib/Toast'
 
   async function delay() {
     console.log("started")

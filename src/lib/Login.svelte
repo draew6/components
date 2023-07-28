@@ -1,7 +1,7 @@
 <script lang="ts">
     import Input from '$lib/Input.svelte';
     import Button from '$lib/Button.svelte';
-    import toast from './toast';
+    import toast from './Toast';
 
     import type {Writable} from 'svelte/store'
 

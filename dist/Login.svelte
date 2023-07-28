@@ -1,6 +1,6 @@
 <script>import Input from "./Input.svelte";
 import Button from "./Button.svelte";
-import toast from "./toast";
+import toast from "./Toast";
 import { createEventDispatcher } from "svelte";
 import { onMount } from "svelte";
 export let loadStore;
