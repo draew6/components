@@ -10,7 +10,7 @@
 
     export let loadStore: Writable<boolean>
     export let autologin: Function
-    export let login: () => Promise<boolean>
+    export let login: (username: string, password: string) => Promise<boolean>
 
     const dispatch = createEventDispatcher();
 
@@ -34,7 +34,7 @@
     }
 
     const handleLogin = async () => {
-        const isLoginSuccesful = await login()
+        const isLoginSuccesful = await login(username, password)
         
         if (isLoginSuccesful) {            
             await autologin();
