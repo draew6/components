@@ -23,6 +23,10 @@
 		"./Toast": {
 			"types": "./dist/Toast.d.ts",
 			"svelte": "./dist/Toast.js"
+		},
+		"./Dialog.svelte": {
+			"types": "./dist/Dialog.svelte.d.ts",
+			"svelte": "./dist/Dialog.svelte"
 		}
 	},
 	"version": "0.0.1",
