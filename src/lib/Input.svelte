@@ -6,7 +6,7 @@
     export let value = '';
 </script>
 {#if isPassword}
-    <PasswordInput {placeholder} {value}/>
+    <PasswordInput {placeholder} bind:value={value}/>
 {:else}
-    <TextInput {placeholder} {value}/>
+    <TextInput {placeholder} bind:value={value}/>
 {/if}
