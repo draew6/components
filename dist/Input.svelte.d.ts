@@ -4,6 +4,7 @@ declare const __propDef: {
         isPassword?: boolean | undefined;
         placeholder?: string | undefined;
         value?: string | undefined;
+        disabled?: boolean | undefined;
     };
     events: {
         [evt: string]: CustomEvent<any>;

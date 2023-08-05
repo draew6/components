@@ -3,6 +3,7 @@ declare const __propDef: {
     props: {
         placeholder?: string | undefined;
         value?: string | undefined;
+        disabled?: boolean | undefined;
     };
     events: {
         [evt: string]: CustomEvent<any>;
